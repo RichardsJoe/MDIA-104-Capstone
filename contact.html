@@ -43,10 +43,15 @@
 					<form action="https://formsubmit.co/jricha10Student@proton.me" method="post">
 						<input type="hidden" name="_captcha" value="false"
 						<h3>Engineer Report</h3>
+						
+							<div class="form-row">
+								<label for="ename">Engineer Email:</label>
+								<input type="text" id="Engineer Email" name="Engineer Email" placeholder="Allow us to reply.">
+							</div>
 					
 							<div class="form-row">
 								<label for="ename">Engineer name:</label>
-								<input type="text" id="ename" name="ename" placeholder="Employee 7891">
+								<input type="text" id="ename" name="employee name" placeholder="Employee 7891">
 							</div>
 
 							<div class="form-row">
@@ -71,12 +76,16 @@
 							<div class="form-row">
 								<textarea id="details" name="details" rows="10" cols="100" placeholder="Begin feedback..."></textarea>
 							</div>
+							
+							<!-- auto reply to email. fingers crossed -->
+							<input type="hidden" name="_autoresponse" value="Thank you for contacting Ficist support at: Jricha10Student@proton.me. We will be sure to get back to you, at some point in the future."
 						
-							<input class="submit-button" onclick="btn_submit_feedback()" type="submit" value="Submit">							
+							<input class="submit-button" onclick="btn_submit_feedback()" type="submit" value="Submit" target="_blank">							
 					</form>
 				</div>
+				
 				<nav class="page-nav">
-					<a class="nav-arrow" href="purchase.html" aria-label="Previous page">&#8592; Prev</a>
+					<a class="nav-arrow" href="purchase.html" label="Previous page">&#8592; Prev</a>
 				</nav class="page-nav">
 				
 			</div class="main_center>
