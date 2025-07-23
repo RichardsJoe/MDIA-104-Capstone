@@ -247,9 +247,9 @@ input[type="submit"] {
 }
 
 .submit-button:hover {
-  box-shadow: 5px 5px 5px black;
+  box-shadow: inset 5px 5px 5px black;
 	cursor: pointer;
-	transform: scale(1.05)
+	transform: scale(.95)
 }
 
 video {
