@@ -129,12 +129,8 @@ img {
 
 #image-row img:hover {
   transform: scale(1.05);
-	transition: .15s;
-
-}
-
-#image-row img:hover{
-	box-shadow: 10px 10px 10px black;
+  box-shadow: 10px 10px 10px black;
+  transition: .15s;
 }
 
 
@@ -163,7 +159,6 @@ tr img {
 
 tbody tr:hover {
 	background-color:#F7882F;
-	font-size: .4s;
 }
 
 tbody tr:hover img {
@@ -210,10 +205,10 @@ td a {
 	color: red;
 }
 
-.form-row label{
-	color:red;
-	font-weight:bold;
-	text-align: justify-content;
+.form-row label {
+  color: red;
+  font-weight: bold;
+  text-align: left;
 }
 
 .form-row input,textarea{
@@ -261,6 +256,8 @@ video {
 	border-radius: 20px;
 	background-color: black;
 }
+
+
 
 @media (max-width: 800px) {
 nav ul {

@@ -5,55 +5,72 @@
 	
 	Capstone Project: Satisfactory
 	Author: Richards, Joseph
-	Date: 2025/07/08	
+	Date: 2025/08/01	
 	Student Filename: basic_setups.html
 	
 -->
-	<head>	
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Satisfactory | Basic Setups</title>
-		<meta name="description" content="Capstone project, with a focus on the game 'Satisfactory'">
-		<link rel="stylesheet" type="text/css" href="satisfactory.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-	</head>
-	
-	<body>
-		<header>
-			<img src="images/banner_02.png">
-		</header>
-		
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="getting_started.html">Getting Started</a></li>
-				<li><a href="buildings.html">First Buildings</a></li>
-				<li><a href="basic_setups.html">Basic Setups</a></li>
-				<li><a href="purchase.html">Purchase</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
+<head>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satisfactory | Basic Setup</title>
+  <meta name="description" content="Capstone project, with a focus on the game 'Satisfactory'">
+  <link rel="stylesheet" type="text/css" href="satisfactory.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="images/banner_02.png" alt="satisfactory banner">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="getting_started.html">Getting Started</a></li>
+      <li><a href="buildings.html">First Buildings</a></li>
+      <li><a href="basic_setups.html">Basic Setups</a></li>
+      <li><a href="purchase.html">Purchase</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div id="main_center">
+      <h1>First Automation</h1>
+      <p>
+        Are you being efficient? While efficiency is not required it is <b>strongly</b> suggested.
+        After chiseling away and manually crafting required items you may wish to build your first assembly line. Here we will cover 
+        how to go from iron-ore to iron plates.
+      </p>
+      <img src="images/first_assembly.gif" alt="Basic assembly line" title="Basic assembly line" style="height: 75%; width: 75%; border-style: solid; border-width: 5px; border-color: #F7882F; border-radius: 20px">
 
-		<main>
-			<div id="main_center">
-				<h1>Basic Setups!</h1>
-				<p>How do I connect machines?</p>
-				
-				
-				<nav class="page-nav">
-					<a class="nav-arrow" href="buildings.html" label="Previous page">&#8592; Prev</a>
-					<a class="nav-arrow" href="purchase.html" label="Next page">Next &#8594;</a>
-				</nav>
-				
-
-			</div>
-			
-
-		</main>
-
-
-	<footer>
-	</footer>
-	</body>
-
+      <div class="build-steps">
+        <h1>3 Easy steps to being more productive.</h1>
+        <h2>Step 1</h2>
+        <p>Place miner, smelter, constructor in a straight line. Be sure to select each machine using <b>E</b> and set the desired item you want to create.</p>
+        <div id="image-row">
+          <img src="images/place_miner.png" alt="mk1 miner">
+          <img src="images/place_smelter.png" alt="smelter">
+          <img src="images/place_const.png" alt="constructor">
+          <img src="images/place_store.png" alt="storage box">
+        </div>
+        <h2>Step 2: Connect each machine with conveyor belts.</h2>
+        <div class="video-steps">
+          <video controls width="600">
+            <source src="clips/add_belt.mp4" type="video/mp4">
+          </video>
+        </div>
+        <h2>Step 3: Place biomass burner and connect the machines.</h2>
+        <div class="video-steps">
+          <video controls width="600">
+            <source src="clips/adding_power.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="page-nav">
+        <a class="nav-arrow" href="buildings.html">&#8592; Prev</a>
+        <a class="nav-arrow" href="purchase.html">Next &#8594;</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+  </footer>
+</body>
 </html>
